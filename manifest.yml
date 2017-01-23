@@ -1,10 +1,10 @@
 ---
 declared-services:
   visual-recognition-service:
-    label: watson_vision_combined
+    label: NW-watson_vision_combined
     plan: free
 applications:
-- name: visual-recognition-demo
+- name: NW-visual-recognition-demo
   path: .
   command: npm start
   memory: 512M
